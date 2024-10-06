@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "grammar-assistant"
+version = "0.1.0"
+description = "Grammar Assistant is a friendly bot helps anyone having hard time in correcting their grammar and provides feedback. It uses Auto Speech Recognition, Natural Language Processing & Text to Speech technologies."
+authors = ["Kirushikesh DB"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "grammar_assistant"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+huggingface-hub = "^0.25.1"
+transformers = "^4.45.1"
+gradio = "^4.44.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
